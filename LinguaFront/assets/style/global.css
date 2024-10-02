@@ -1,0 +1,56 @@
+
+body {
+    margin: 0px;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+.main {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px 80px 20px;
+}
+
+@media (min-width: 768px) {
+    .main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 20px 20px 150px 20px;
+    }
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.blind {
+    text-indent: -9999px;
+    white-space: nowrap;
+}
+
+.invisible {
+    display: none;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    a {
+        text-decoration: none;
+        color: #333;
+    }
+}
