@@ -1,6 +1,7 @@
-LinguaLab 은 번역 서비스 프로젝트를 의미합니다.
+openAi 를 연결한 번역서비스 프로젝트입니다.
 LinguaLabFront 는 프론트 화면 구현 Nuxt.js 앱입니다.
 LinguaLabServer 는 api 서버 구현 SpringBoot 앱입니다.
+최소한의 기능만 구현된 상태입니다.
 
 1과업. 메인화면 번역 화면 구현
 2과업. 북마크 저장된 번역 화면 구현
